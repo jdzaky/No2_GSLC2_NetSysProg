@@ -9,6 +9,7 @@ Go program retrieve web resources using the default HTTP client. Include the fol
 
 Generate.go
 is program to Generate key and sertificate to localhost web
+
 *how do i create https connection in localhost : generate key and sertificate in generate.go using following command go run generate.go -host=localhost -> Import cert.pem to browser(chrome) open chrome://settings/privacy -> security -> manage certificate -> import that cert.pem in Trusted Root Certification Authorities 
 
 viewTLS_versionCiphersuiteNameAndIssuer.go 
